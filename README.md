@@ -1,3 +1,4 @@
-#@Author Gitau Muguro
-
-This is code to deal with cloning of the ALX AirBnb_Console project.
+# AirbnB clone - The console
+## Description:
+This is my first step towads building my first full web application: the AirBnB clone.
+This is a crucial step as i shall be building my sebsequent projects on it.
