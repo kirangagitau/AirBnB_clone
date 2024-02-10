@@ -15,5 +15,5 @@ the following tasks:
 
 ### Environment
 > [!NOTE]
-> Everything is done from my :computer: runnig LINUX.
+> Everything is done from my :computer: runnig 
 > Linux 6.1.0-kali9-amd64 x86_64 
