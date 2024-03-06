@@ -3,7 +3,7 @@
 This is my first step towads building my first full web application: the AirBnB clone.
 This is a crucial step as i shall be building my sebsequent projects on it.
 ## Intro:
-The project is a clone of AirBnB.
+The project is a clone of AirBnB. (project)
 
 The console will be managing objects and how they ar stored by basically performing
 the following tasks:
