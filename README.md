@@ -2,6 +2,7 @@
 ## Description:
 This is my first step towads building my first full web application: the AirBnB clone.
 This is a crucial step as i shall be building my sebsequent projects on it.
+
 ## Intro:
 The project is a clone of AirBnB. (project)
 
@@ -17,3 +18,4 @@ the following tasks:
 > [!NOTE]
 > Everything is done from my :computer: runnig 
 > Linux 6.1.0-kali9-amd64 x86_64 
+> More Power = more responsibilities
