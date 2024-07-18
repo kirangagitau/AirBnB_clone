@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 
+import os
+import models
 import unittest
 from datetime import datetime, timedelta
 from models.basemodel import BaseModel
+
 
 class TestBaseModel(unittest.TestCase):
     def setUp(self):
