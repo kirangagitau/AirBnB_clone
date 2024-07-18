@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 
-import uuid
+import models
+from uuid import uuid4
 from datetime import datetime
 
+
 class BaseModel:
+    """ this is the base model for the AirBnB clone project"""
     def __init__(self):
         """Constructor to initialize the BaseModel instance."""
         self.id = str(uuid.uuid4())
@@ -15,7 +18,7 @@ class BaseModel:
         self.updated_at = datetime.utcnow()
 
     def to_dict(self):
-        """Returns a dictionary containing all keys/values of __dict__ of the instance."""
+        """Rtrn dict keys/values of __dict__ of the instance."""
         inst_dict = self.__dict__.copy()
         inst_dict["__class__"] = self.__class__.__name__
         inst_dict["created_at"] = self.created_at.isoformat()
@@ -23,5 +26,6 @@ class BaseModel:
         return inst_dict
 
     def __str__(self):
-        """Returns the string representation of the BaseModel instance."""
-        return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dic__)
+        """Rtrn str representation of the BaseModel instance."""
+        cname = self.__class__.__name__
+        return "[{}] ({}) {}".format(cname, self.id, self.__dic__)
